@@ -1,0 +1,567 @@
+.login{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-rows: 1fr 6.5rem 6.5rem 6.5rem;
+    gap: 1.6rem;
+    overflow: hidden;
+}
+
+.log{
+    width: 16rem;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.sign-in{
+
+    width: 37.2rem;
+    height: 5.7rem;
+    border-radius: 1.8rem;
+    background-color: black;
+    color: white;
+    font-size: 2.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: white;
+}
+
+.create-account{
+    width: 37.2rem;
+    height: 5.7rem;
+    border: 1px solid black;
+    border-radius: 1.8rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.need-help{
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5.5rem;
+}
+
+.create-account p, div {
+    text-align: center;
+    justify-content: center;
+}
+
+/* CSS QUE SOLO FUNCIONA EN TELEFONO DE 480PX */
+@media screen and (max-width: 480px) {
+
+    .login{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }  
+}
+
+/*CSS DE TRANSACTION*/
+.logtrans{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;   
+}
+
+.opciones{
+    float: left;
+    width: 80%;
+    height: 4rem;
+    margin-left: 4.2rem;
+    margin-top: 27rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circuloOne{
+    float: left;
+    position: absolute;
+    margin-left: -17.5rem;
+    margin-top: 5rem;
+    width: 20.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.titutrans{
+    margin-left: 7.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 30px;
+}
+
+.itemss{
+    background-color:#E6E6E6;;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 20%;
+}
+
+.itemMedio{
+    width: 6.4rem;
+    height: 6.4rem;
+    align-items: center;
+    border-radius: 20%;
+    background-color: black;
+}
+.imgItemss{
+    width: 6.9rem;
+    margin-top: 1rem;
+    margin-left: -0.3rem;
+}
+
+.imgItemss{
+    width: 4.5rem;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+}
+.itemBajo{
+    width: 100%;
+    height: 11.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);;
+}
+.imgItemMedio{
+    width: 4rem;
+    margin-top: 1.2rem;
+    margin-left: 1.1rem;
+}
+
+.letras_circulo{
+    position: absolute;
+    margin-top: 11.5rem;
+    margin-left: -12.8rem;
+    font-family: 'Poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 30px;
+}
+
+.palabraOpciones{
+    float: left;
+    width: 77%;
+    height: 1rem;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tituBajo{
+    float: left;
+   margin-top: 4rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 30px;
+}
+.contenedorBajo{
+    width: 41.4rem  ;
+    height: 45rem;
+    left: 2rem;
+}
+
+.itemsOpi{
+    background-color: #E6E6E6;;
+    width: 5.3rem;
+    height: 5.3rem;
+    border-radius: 15%;
+    
+    
+}
+.itemsOpi img{
+    width: 6rem;
+    margin-top: 0.7rem;
+    margin-left: -0.2rem;
+}
+.titulito{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+    margin-top: -3.1rem;
+    margin-left: 8rem;
+}
+.Price{
+    position: absolute;
+    margin-left: 33rem;
+    margin-top: -3.1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+}
+
+.Carro{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+    margin-top: -3.1rem;
+    margin-left: 8rem;
+}
+.PriceCarro{
+    position: absolute;
+    margin-left: 33rem;
+    margin-top: -3.1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+}
+.PriceCarro{
+    position: absolute;
+    margin-top: -3.7rem;
+    margin-left: 33rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+}
+.Carro{
+    position: absolute;
+    margin-top: -3.7rem;
+    margin-left: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+
+}
+
+.items_end{
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/*CSS DE CREATE ACCOUNT*/
+.logcreate{
+    font-family: 'Poppins';
+    float: left;
+    width: 100%;
+    height: 100%;
+
+}
+
+.create-account a{
+    text-decoration: none;
+    color: black;
+}
+.inicio h1{
+    float: left;
+    margin-left: 14.9rem;
+    margin-top: 2rem;
+    font-family: 'Poppins';
+}
+
+.inicio a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor{
+        width: 41.4rem; 
+        height: 37rem;
+}
+
+.flechatras{
+    width: 6.8rem;
+    height: 2.3rem;
+    float: left;
+    margin-top:2rem;
+}
+
+.item{
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.item h2{
+    font-family: 'Poppins';
+    margin-left: 2.3rem;
+    opacity: 0.6;
+}
+
+.titucreate{
+    margin-top: 26rem;
+    margin-left: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 40px;
+}
+
+.fin{
+    height: 10rem;
+}
+
+.item .entrada{
+    position: absolute;
+    margin-top: 5.8rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    border: none;
+}
+
+.inicio{
+    float: left;
+    width: 37.9rem;
+    height: 6.1rem;
+    background-color: black;
+    color: white;
+    margin-top: 10rem;
+    margin-left: 1.7rem;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.no-account span{
+    float: left;
+    font-size: 1.5rem;
+    margin-left: 9.5rem;
+    margin-top: 2rem;
+    font-family: 'Poppins';
+
+}
+.no-account h2{
+    float: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-family: 'Poppins';
+
+}
+
+.no-account{
+    float: left;
+    width: 100%;
+    height: 8.5rem;
+}
+
+/*CSS DE PROFILE*/
+
+.logprofile{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.flechatras{
+    width: 6.8rem;
+    height: 2.3rem;
+    float: left;
+    margin-top:2rem;
+}
+
+.tituProfile{
+    position: absolute;
+    width: 1.2rem;
+    height: 2.7rem;
+    right: 12rem;
+    left: 17.4rem;
+    top: 5.2rem;
+
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+.cuadroNegro{
+    background-color: black;
+    width: 34.1rem;
+    height: 9.7rem;
+    right: 4.8rem;
+    left: 2.5rem;
+    margin-top: 14.4rem;
+    border-radius: 2.5rem;
+    align-items: center;
+}
+
+.ftoProfile{
+    box-sizing: border-box;
+    position: absolute;
+    width: 7.9rem;
+    height: 7.7rem;
+    right: 24.6rem;
+    left: 1.6rem;
+    top: 17.5rem;
+}
+
+.textProfile{
+    color: white;
+    position: absolute;
+    width: 12.4rem;
+    height: 4.3rem;
+    right: 11.5rem;
+    left: 12.7rem;
+    top: 16.6rem;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+.edit{
+    background-color: rgb(201, 201, 201);
+    box-sizing: border-box;
+    position: absolute;
+    width: 5.1rem;
+    height: 2.6rem;
+    right: 4.8rem;
+    left: 30.2rem;
+    top: 20.5rem;
+    border-radius: 1.9rem;
+}
+.editLetras{
+    width: 5.2rem;
+    height: 1.4rem;
+    left: 31.4rem;
+    top: 18rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.abajoProfile{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6rem;
+}
+
+.cuadroFts1{
+    position: absolute;
+    width: 6.4rem;
+    height: 5.7rem;
+    right: 30.5rem;
+    left: 4.5rem;
+    top: 35.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background: #F9F9F9;
+    border-radius: 6px;
+}
+
+.cuadroFts2{
+    position: absolute;
+    width: 6.4rem;
+    height: 5.7rem;
+    right: 30.5rem;
+    left: 4.5rem;
+    top: 45.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background: #F9F9F9;
+    border-radius: 6px;
+}
+.cuadroFts3{
+    position: absolute;
+    width: 6.4rem;
+    height: 5.7rem;
+    right: 30.5rem;
+    left: 4.5rem;
+    top: 55.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background: #F9F9F9;
+    border-radius: 6px;
+}
+.cuadroFts4{
+    position: absolute;
+    width: 6.4rem;
+    height: 5.7rem;
+    right: 30.5rem;
+    left: 4.5rem;
+    top: 65.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background: #F9F9F9;
+    border-radius: 6px;
+}
+
+.cuadroNegroBajo{
+    background-color: #000000;
+    box-sizing: border-box;
+    position: absolute;
+    width: 37.9rem;
+    height: 8.2rem;
+    right: 10rem;
+    left: 1.4rem;
+    top: 75.3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 2.5rem;
+
+}
+
+.abajoNegro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flechaUltima{
+    position: absolute;
+    width: 6.9rem;
+    height: 5.8rem;
+    right: 29.9rem;
+    left: 9.4rem;
+}
+
+.salirProfile{
+    position: absolute;
+    width: 86rem;
+    height: 6.6rem;
+    left: 297px;
+    top: 778px;
+    color: red;
+}

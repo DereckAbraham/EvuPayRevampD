@@ -1,0 +1,16 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    max-width: 41.4rem;
+    margin: auto;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    color: black;
+}
